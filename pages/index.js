@@ -1,8 +1,5 @@
 import Head from "next/head";
-import Heading from "../components/Heading";
-// import Socials from "../components/Socials";
 import Hero from "../components/Hero";
-import Hero_Sounds from "../components/Hero_Sounds";
 import styles from "../styles/Home.module.scss";
 
 export const getStaticProps = async () => {
@@ -31,7 +28,6 @@ const Home = ({ socials }) => (
     <Head>
       <title>Splice</title>
     </Head>
-    {/* <Socials socials={socials} /> */}
     <Hero />
   </div>
 );
